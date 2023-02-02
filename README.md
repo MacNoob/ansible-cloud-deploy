@@ -4,6 +4,7 @@
 ## System requirements
 - Docker, Docker Compose
 - NodeJS (for the developers)
+- Ansible
 
 
 ## Usage
