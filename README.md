@@ -18,4 +18,4 @@ make deploy-ansible     #command that launches the playbook and installs the app
 
 
 Link:
-- [Application Web](macnoob.fun)
+- [Application Web](www.macnoob.fun)
