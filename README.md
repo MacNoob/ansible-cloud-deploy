@@ -1,4 +1,4 @@
-## Deploying an application in a Docker container to a server in the cloud using Ansible
+## Deploying applications in a Docker container from a repository DockerHub on a server in the cloud using Ansible
 
 
 ## System requirements
