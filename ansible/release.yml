@@ -1,0 +1,21 @@
+- hosts: all
+  tasks:
+    - apt:
+        name: python3-pip
+        update_cache: yes
+        cache_valid_time: 604800
+      become: yes
+
+    - pip:
+        name: docker
+
+    - community.docker.docker_container:
+        name: app
+        image: "macnoob/devops-example-app:{{ version }}"
+        restart_policy: always
+        state: started
+        ports:
+          - 3000:3000
+        env:
+          NODE_ENV: production
+      become: yes

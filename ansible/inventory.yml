@@ -1,0 +1,6 @@
+all:
+  children:
+    webservers:
+      hosts:
+        deploy:
+          ansible_hosts: 158.160.43.80
